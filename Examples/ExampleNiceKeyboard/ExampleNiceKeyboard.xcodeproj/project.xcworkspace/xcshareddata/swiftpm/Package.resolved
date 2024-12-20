@@ -1,0 +1,15 @@
+{
+  "originHash" : "592ee0d0aeb32053b239b57d6eda405992fecdb35402395849a66d6462d04945",
+  "pins" : [
+    {
+      "identity" : "nicekeyboard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dsungc1111/NiceKeyboard.git",
+      "state" : {
+        "revision" : "717b30abb7b0ace91cd7bcc635a3aa1ed2f60b2c",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
