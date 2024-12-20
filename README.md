@@ -9,7 +9,21 @@ A Swift library for managing keyboard interactions in iOS applications
 - Dismiss the keyboard with a tap gesture
 - Exclude specific views from tap gesture
 
-## Installation
+## Usage
 
-### Swift Package Manager (SPM)
-Add the following URL to your package dependencies:
+### Basic Configuration
+```swift
+import NiceKeyboard
+
+NiceKeyboard.shared.configure(
+    observingView: self.view,
+    keyboardWillShow: { height in
+        print("Keyboard will show with height: \(height)")
+    },
+    keyboardWillHide: {
+        print("Keyboard will hide")
+    },
+    dismissOnTap: true
+)
+```
+
